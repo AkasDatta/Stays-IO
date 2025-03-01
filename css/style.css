@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Poppins:wght@500&family=Quicksand:wght@700&display=swap');
+
+.banner-text{
+    font-family: 'Quicksand', sans-serif;
+}
+/* Add this CSS to your stylesheets */
+@keyframes zoom {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .zoom-animation {
+    animation: zoom 10s infinite; /* Adjust the duration as needed */
+  }
+  
