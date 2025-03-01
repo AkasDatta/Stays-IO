@@ -58,7 +58,65 @@
           </div>
         </div>
         <div class='absolute flex items-center justify-center w-full'>
-          <BannerSearch />
+            <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-4" style="margin-top: -100px;">
+                <div class="container mx-auto border-3">
+                    <form class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4">
+                        <div>
+                          <label class="sr-only" for="email">Name</label>
+                          <input
+                            class="w-full border border-gray-100 p-4 text-sm bg-white focus:border-white focus:outline-none"
+                            placeholder="Name"
+                            type="name"
+                            id="name"
+                          />
+                        </div>
+                        <div>
+                            <label class="sr-only" for="date">Date</label>
+                            <input
+                              class="w-full border border-gray-100 bg-white p-3 text-sm focus:border-white focus:outline-none"
+                              placeholder="Check In"
+                              type="date"
+                            />
+                          </div>
+                          <div>
+                            <label class="sr-only" for="date">Date</label>
+                            <input
+                              class="w-full border border-gray-100 bg-white p-3 text-sm focus:border-white focus:outline-none"
+                              placeholder="Check Out"
+                              type="date"
+                            />
+                          </div>
+                        <div>
+                          <label class="sr-only" for="email">Company</label>
+                          <input
+                            class="w-full border border-gray-100 p-4 text-sm bg-white focus:border-white focus:outline-none"
+                            placeholder="Company"
+                            type="name"
+                            id="name"
+                          />
+                        </div>
+                        <div>
+                          <label class="sr-only" for="email">Additional Details</label>
+                          <input
+                            class="w-full border border-gray-100 p-4 text-sm bg-white focus:border-white focus:outline-none"
+                            placeholder="details"
+                            type="name"
+                            id="name"
+                          />
+                        </div>
+                      
+                        <div>
+                          <button
+                            type="submit"
+                            class="w-full bg-teal-400 px-6 py-4 text-sm text-white"
+                          >
+                            Booking Request
+                          </button>
+                        </div>
+                      </form>
+                      
+                </div>
+              </div>
         </div>
     </div>
 
@@ -76,7 +134,7 @@
             </div>
             <div class="text-white hover:text-teal-400 duration-500">
                 <div class="flex gap-4">
-                    <i class="fa-solid fa-phone text-xl text-teal-400 "></i>
+                    <i class="fa-solid fa-number text-xl text-teal-400 "></i>
                     <div>
                         <a href="#" class="xl:text-lg lg:text-md underlone"> (123) 456-7890 </a>
                     </div>
