@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Poppins:wght@500&family=Quicksand:wght@700&display=swap');
 
 .banner-text{
